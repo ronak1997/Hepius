@@ -22,23 +22,24 @@
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.slider');
+
+
     var elemMobile = document.getElementById("MobileSlider");
     var elemWeb = document.getElementById("WebSlider");
     var elemPhase1 = document.getElementById("Phase1Slider");
     var elemPhase2 = document.getElementById("Phase2Slider");
     var elemPhase3 = document.getElementById("Phase3Slider");
 
-
     let options = {height: 900};
     var instances = M.Slider.init(elemWeb, options);
     options = {height: 700};
     var instances = M.Slider.init(elemMobile, options);
     options = {height: 800};
-    var instances = M.Slider.init(elemPhase1,options);
+    var instances = M.Slider.init(elemPhase1, options);
     options = {height: 800};
-    var instances = M.Slider.init(elemPhase2,options);
+    var instances = M.Slider.init(elemPhase2, options);
     options = {height: 800};
-    var instances = M.Slider.init(elemPhase3,options);
+    var instances = M.Slider.init(elemPhase3, options);
 
 
   });
@@ -97,28 +98,28 @@
       <div class="slider card-content" id="MobileSlider" style="width: 22%; left:39%;">
         <ul class="slides">
           <li>
-            <img src="img/Mobile/AppStoreListing.jpg" height="auto" width="auto">
+            <img src="img/Mobile/AppStoreListing.jpg">
           </li>
           <li>
-            <img src="img/Mobile/LoginPage.jpg" height="auto">
+            <img src="img/Mobile/LoginPage.jpg">
           </li>
           <li>
-            <img src="img/Mobile/HomePage.jpg" height="100%">
+            <img src="img/Mobile/HomePage.jpg">
           </li>
           <li>
-            <img src="img/Mobile/MyProfile.jpg" height="100%">
+            <img src="img/Mobile/MyProfile.jpg">
           </li>
           <li>
-            <img src="img/Mobile/TakeSurvey.jpg" height="100%">
+            <img src="img/Mobile/TakeSurvey.jpg">
           </li>
           <li>
-            <img src="img/Mobile/CompletedSurvey.jpg" height="100%">
+            <img src="img/Mobile/CompletedSurvey.jpg">
           </li>
           <li>
-            <img src="img/Mobile/RiskCalc.jpg" height="100%">
+            <img src="img/Mobile/RiskCalc.jpg">
           </li>
           <li>
-            <img src="img/Mobile/GeneralInfo.jpg" height="100%">
+            <img src="img/Mobile/GeneralInfo.jpg">
           </li>
         </ul>
       </div>
@@ -220,7 +221,7 @@
           </li>
         </ul>
       </div>
-<br>
+      <br>
       <br>
 
 
@@ -263,7 +264,6 @@
       </div>
 
 
-
       <br>
       <br>
 
@@ -286,6 +286,13 @@
             <img src="img/Deliverables/Phase3/4.png">
           </li>
         </ul>
+      </div>
+
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"> <img src="img/Deliverables/Phase3/1.png"></a>
+        <a class="carousel-item" href="#two!"> <img src="img/Deliverables/Phase3/2.png"></a>
+        <a class="carousel-item" href="#three!"> <img src="img/Deliverables/Phase3/3.png"></a>
+        <a class="carousel-item" href="#four"> <img src="img/Deliverables/Phase3/4.png"></a>
       </div>
 
 
@@ -326,7 +333,7 @@
             <div class="card-content">
               <div class="card-title">Developer</div>
               <hr>
-              <p>Developed the HepiusAPI that interfaces with the HepiusDB</p>
+              <p>Integrated Materialize css with HepiusWeb.</p>
               <br>
               <p>Kishan plans on entering the industry as a Software Engineer. After gaining industry experience, he
                 plans on attending graduate school to pursue a Master's degree in Computer Science.</p>
