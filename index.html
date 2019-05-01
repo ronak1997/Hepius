@@ -2,13 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Project Hepius</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
-
   <link rel="stylesheet" href="css/main.css">
 
 </head>
@@ -18,32 +16,6 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
   your browser</a> to improve your experience and security.</p>
 <![endif]-->
-
-<script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.slider');
-
-
-    var elemMobile = document.getElementById("MobileSlider");
-    var elemWeb = document.getElementById("WebSlider");
-    var elemPhase1 = document.getElementById("Phase1Slider");
-    var elemPhase2 = document.getElementById("Phase2Slider");
-    var elemPhase3 = document.getElementById("Phase3Slider");
-
-    let options = {height: 900};
-    var instances = M.Slider.init(elemWeb, options);
-    options = {height: 700};
-    var instances = M.Slider.init(elemMobile, options);
-    options = {height: 800};
-    var instances = M.Slider.init(elemPhase1, options);
-    options = {height: 800};
-    var instances = M.Slider.init(elemPhase2, options);
-    options = {height: 800};
-    var instances = M.Slider.init(elemPhase3, options);
-
-
-  });
-</script>
 
 <div class="navbar-fixed">
   <nav>
@@ -83,7 +55,6 @@
       <p>Our team built a website and a cross-platform mobile application that is user friendly. The website, HepiusWeb,
         can be used by doctors to create and monitor patient accounts. The mobile app can be used by patients to view
         information regarding Osteoporosis as well as take surveys assigned by their physician.</p>
-
     </div>
   </div>
 
@@ -95,35 +66,11 @@
       <div style="text-align: center;">
         <div class="card-title"><strong>HepiusApp Gallery</strong></div>
       </div>
-      <div class="slider card-content" id="MobileSlider" style="width: 22%; left:39%;">
-        <ul class="slides">
-          <li>
-            <img src="img/Mobile/AppStoreListing.jpg">
-          </li>
-          <li>
-            <img src="img/Mobile/LoginPage.jpg">
-          </li>
-          <li>
-            <img src="img/Mobile/HomePage.jpg">
-          </li>
-          <li>
-            <img src="img/Mobile/MyProfile.jpg">
-          </li>
-          <li>
-            <img src="img/Mobile/TakeSurvey.jpg">
-          </li>
-          <li>
-            <img src="img/Mobile/CompletedSurvey.jpg">
-          </li>
-          <li>
-            <img src="img/Mobile/RiskCalc.jpg">
-          </li>
-          <li>
-            <img src="img/Mobile/GeneralInfo.jpg">
-          </li>
-        </ul>
-      </div>
 
+      <div class="center-align">
+        <div id="mobile_div" class="scrolling-wrapper">
+      </div>
+    </div>
     </div>
   </div>
 
@@ -158,30 +105,9 @@
       <div style="text-align: center;">
         <div class="card-title"><strong>HepiusWeb Gallery</strong></div>
       </div>
-      <div class="slider" id="WebSlider">
-        <ul class="slides">
-          <li>
-            <img src="img/Web/LoginPage.png">
-          </li>
-          <li>
-            <img src="img/Web/HomePage.png">
-          </li>
-          <li>
-            <img src="img/Web/SurveyCreate.png">
-          </li>
-          <li>
-            <img src="img/Web/CompletedSurveys.png">
-          </li>
-          <li>
-            <img src="img/Web/EditPatientInfo.png">
-          </li>
-          <li>
-            <img src="img/Web/NewPatientAccount.png">
-          </li>
-          <li>
-            <img src="img/Web/DoctorProfile.png">
-          </li>
-        </ul>
+
+      <div class="center-align">
+        <div id="web_div" class="scrolling-wrapper">
       </div>
     </div>
   </div>
@@ -193,76 +119,21 @@
       <div style="text-align: center;">
         <div class="card-title"><strong>Phase 1 Gallery</strong></div>
       </div>
-      <div class="slider" id="Phase1Slider" style="width: 50%; left:25%;">
-        <ul class="slides">
-          <li>
-            <img src="img/Deliverables/Phase1/1.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase1/2.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase1/3.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase1/4.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase1/5.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase1/6.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase1/7.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase1/8.png">
-          </li>
-        </ul>
-      </div>
-      <br>
-      <br>
 
+      <div class="center-align">
+        <div id="phase1_div" class="scrolling-wrapper">
+      </div>
+
+      <br>
+      <br>
 
       <div style="text-align: center;">
         <div class="card-title"><strong>Phase 2 Gallery</strong></div>
       </div>
-      <div class="slider" id="Phase2Slider" style="width: 50%; left:25%;">
-        <ul class="slides">
-          <li>
-            <img src="img/Deliverables/Phase2/1.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase2/2.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase2/3.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase2/4.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase2/5.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase2/6.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase2/7.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase2/8.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase2/9.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase2/10.png">
-          </li>
-        </ul>
-      </div>
 
+      <div class="center-align">
+        <div id="phase2_div" class="scrolling-wrapper">
+      </div>
 
       <br>
       <br>
@@ -271,31 +142,10 @@
       <div style="text-align: center;">
         <div class="card-title"><strong>Phase 3 Gallery</strong></div>
       </div>
-      <div class="slider" id="Phase3Slider" style="width: 50%; left:25%;">
-        <ul class="slides">
-          <li>
-            <img src="img/Deliverables/Phase3/1.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase3/2.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase3/3.png">
-          </li>
-          <li>
-            <img src="img/Deliverables/Phase3/4.png">
-          </li>
-        </ul>
+
+      <div class="center-align">
+        <div id="phase3_div" class="scrolling-wrapper">
       </div>
-
-      <div class="carousel">
-        <a class="carousel-item" href="#one!"> <img src="img/Deliverables/Phase3/1.png"></a>
-        <a class="carousel-item" href="#two!"> <img src="img/Deliverables/Phase3/2.png"></a>
-        <a class="carousel-item" href="#three!"> <img src="img/Deliverables/Phase3/3.png"></a>
-        <a class="carousel-item" href="#four"> <img src="img/Deliverables/Phase3/4.png"></a>
-      </div>
-
-
     </div>
   </div>
 
@@ -304,7 +154,7 @@
       <h3>Meet the Team</h3>
       <hr>
       <div class="row">
-        <div class="col s12 m3">
+        <div class="col s12 m6 l3">
           <div class="card">
             <div class="card-image">
               <img src="img/CollinProfile.jpeg">
@@ -324,7 +174,7 @@
           </div>
         </div>
 
-        <div class="col s12 m3">
+        <div class="col s12 m6 l3">
           <div class="card">
             <div class="card-image">
               <img src="img/KishanProfile.jpg">
@@ -344,7 +194,7 @@
           </div>
         </div>
 
-        <div class="col s12 m3">
+        <div class="col s12 m6 l3">
           <div class="card">
             <div class="card-image">
               <img src="img/RonakProfile.jpg">
@@ -364,7 +214,7 @@
           </div>
         </div>
 
-        <div class="col s12 m3">
+        <div class="col s12 m6 l3">
           <div class="card">
             <div class="card-image">
               <img src="img/JohnProfile.jpeg">
